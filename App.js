@@ -1,0 +1,4 @@
+var parent=[React.createElement("h1",{},"Hello world"),React.createElement("h2",{},"welcome to ReactJS"),React.createElement("h3",{},"React is a declarative, efficient, and flexible JavaScript library for building user interface."),React.createElement("h4",{},"The main objective of ReactJS is to develop User Interfaces(UI)that improves the speed of the apps. It uses virtual DOM (JavaScript object), which improves the performance of the app. The JavaScript virtual DOM is faster than the regular DOM. We can use ReactJS on the client and server-side as well as with other frameworks."),];
+var htmlRoot=document.getElementById("root");
+var rootReact=ReactDOM.createRoot(htmlRoot);
+rootReact.render(parent);
